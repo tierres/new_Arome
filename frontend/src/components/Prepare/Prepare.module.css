@@ -1,0 +1,47 @@
+.prepareContainer {
+    
+}
+
+.prepareTittle {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.prepareSteps {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.stepImage {
+    width: 70px;
+    height: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .sectionContainer {
+        padding-bottom: 0 !important;
+    }
+
+    .prepareTittle {
+        display: flex;
+        justify-content: center;
+    }
+
+    .prepareSteps {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .step {
+        padding-bottom: 15px;
+    }
+}

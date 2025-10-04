@@ -1,0 +1,29 @@
+.howItWorksContainer {
+    background-color: #f8f8f8;
+    
+}
+
+.sectionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tittle {
+    color: black;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.paragraph {
+    color: black;
+    font-size: x-large;
+    font-weight: 400;
+    margin: 0 60px;
+}

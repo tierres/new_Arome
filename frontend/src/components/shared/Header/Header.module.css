@@ -1,0 +1,94 @@
+.headerContainer {
+    background-color: #E9EAE9;
+}
+
+.sectionContainer {
+    display: flex;
+    height: 133px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer {
+    flex: 1;
+}
+
+.linksContainer {
+    flex: 2;
+}
+
+.navLinksContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.linkStyle {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    /* display: inline-block; */
+}
+
+.activeLink {
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 4px;
+}
+
+.iconsLinksContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 250px;
+}
+
+.cartButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.searchButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.userButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menuButton {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sectionContainer {
+        padding: 5px !important;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .linksContainer {
+        display: none;
+    }
+
+    .userButton {
+        display: none;
+    }
+
+    .logoImg {
+        width: 50px;
+    }
+}

@@ -1,0 +1,74 @@
+.littleProductCardContainer {
+    background-color: white;
+    max-width: 275px;
+    display: flex;
+    flex-direction: column;
+    height: 435px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin: 5px auto;
+}
+
+.topSideLink {
+    color: inherit;
+    text-decoration: none;
+}
+
+.topside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.productImage {
+    height: 244px;
+    width: 244px;
+}
+
+.productName {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.bottomside {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.priceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aPartirDe {
+    display: flex;
+    font-size: 25px;
+    margin: 0;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 400;
+    color: #425B41;
+    margin: 0;
+}

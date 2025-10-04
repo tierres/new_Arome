@@ -1,0 +1,84 @@
+.productListContainer {
+    background-color: white;
+}
+
+.sectionContainer {
+    background-color: white;
+}
+
+.filtersContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+}
+
+.spanStyle {
+    color: #777;
+    flex: 1;
+}
+
+.labelStyle {
+    font-size: large;
+    padding-left: 15px;
+    color: #425B41;
+}
+
+.selectStyle {
+    -webkit-appearance: none; /* Remove o estilo padrão no Safari e Chrome */
+    -moz-appearance: none; /* Remove o estilo padrão no Firefox */
+    appearance: none; /* Remove o estilo padrão em navegadores que suportam a propriedade appearance */
+
+    /* Adicionando uma seta personalizada: */
+    background-image: url('./vectors/arrow-to-down-left-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 25px;
+
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: white;
+    width: 160px;
+    height: 40px;
+    text-indent: 8%;
+}
+
+/* ------------------------------------ */
+
+.listContainer {
+    padding: 10px 0;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: space-between; 
+}
+
+@media screen and (max-width: 768px) {
+    .sectionContainer {
+        padding: 0 10px;
+    }
+
+    .filtersContainer {
+        display: flex;
+        flex-wrap: wrap; /* Permite quebra de linha, necessário para mobile */
+        gap: 16px; /* Espaço entre os elementos */
+        flex-direction: column;
+        align-items: flex-end;
+        height: 150px;
+    }
+
+    .spanStyle {
+        order: 3;
+        align-self: center; 
+        padding-top: 5px;
+    }
+
+    .typeFilter {
+        order: 1;
+    }
+
+    .orderFilter {
+        order: 2
+    }
+}

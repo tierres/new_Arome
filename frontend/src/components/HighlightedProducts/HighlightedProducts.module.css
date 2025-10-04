@@ -1,0 +1,63 @@
+.highlightedProductsContainer {
+    background-color: white;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    gap: 35px;
+}
+
+.tittle {
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.arrowsPlusCards {
+    display: flex; 
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.arrowsButtons {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .cards {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+} */
+
+.slider {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+.slider .slick-track {
+    display: flex;
+}
+
+.dots {
+    bottom: -33px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .tittle {
+        padding-bottom: 10px;
+    }
+
+    .slider {
+        padding-bottom: 5px;
+    }
+}
+

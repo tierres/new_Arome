@@ -1,0 +1,85 @@
+.clubFormContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f8f8f8;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formDiv {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formLabel {
+    font-size: x-large;
+}
+
+.formInput {
+    border: 1px solid black;
+    border-radius: 16px;
+    padding-left: 10px;
+    width: 520px;
+    height: 34px;
+}
+
+.formInput:focus {
+    border: 2px solid #425B41;
+    outline: none;
+}
+
+.formInputErrors {
+    border: 1px solid red;
+    border-radius: 16px;
+    padding-left: 10px;
+    width: 520px;
+    height: 34px;
+    background: url('./vectors/circle-x.svg') no-repeat 490px center;
+}
+
+.formInputErrors:focus {
+    border: 2px solid red;
+    outline: none;
+}
+
+.errorsMessage {
+    color: red;
+    margin-top: 4px;
+    width: 520px
+}
+
+.submitButton {
+    background-color: #425B41;
+    color: white;
+    font-size: x-large;
+    font-family: "Josefin Sans", sans-serif;
+
+    border: none;
+    border-radius: 14px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    width: 238px;
+    height: 52px;
+}
+
+
+

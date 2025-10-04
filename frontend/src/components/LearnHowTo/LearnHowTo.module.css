@@ -1,0 +1,37 @@
+.learnHowToContainer {
+    background-color: #425B41;
+}
+
+.sectionContainer {
+    display: flex; /* Por padrão um display que utiliza da ferramenta FlexBox tem a direção como Row(da esquerda para direita) */
+    justify-content: space-between; /* Quando a direção é 'row' ele altera o espaçamento entre os elementos que estão na horizontal */
+    align-items: center; /* Quando a direção é 'row' ele altera o o espaçamento dos elementos em relação ao top e o bottom */
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.text {
+    color: white;
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.video {
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sectionContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        padding-bottom: 45px;
+    }
+
+    .video {
+        width: 350px;
+        height: 200px;
+    }
+}

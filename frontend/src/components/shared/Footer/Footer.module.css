@@ -1,0 +1,130 @@
+.footerContainer {
+    background-color: black;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+}
+
+
+.upSide {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.upSideLeft {
+    margin-right: 128px;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upSideRight {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.customNav {
+    display: flex;
+    flex-direction: column;
+}
+
+.customNavAnchors {
+    color: white;
+    text-decoration: none;
+    font-size: 14;
+    font-weight: 400;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.customNavAnchors:hover {
+    color: #c46766;
+}
+
+.footerTittles {
+    color: #848484;
+    font-size: 14;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.paymentsAndSocialContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.paymentsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.logosContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.Xlogo {
+    height: 32px;
+    margin-right: 10px;
+}
+
+
+
+
+.bottomSide {
+    color: #848484;
+    padding: 20px 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .upSide {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 0;
+    }
+
+    .upSideLeft {
+        margin-left: 0;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 81px;
+        height: 129px;
+    }
+
+    .upSideRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+    }
+
+    .upSideRight > * {
+        padding-bottom: 16px;
+      }
+
+    .logosContainer {
+        display: flex;
+        align-items: center;
+        padding-bottom: 16px;
+    }  
+}
+
