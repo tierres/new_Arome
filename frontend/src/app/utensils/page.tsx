@@ -1,12 +1,12 @@
-import { Header } from "../../components/shared/Header/Header.tsx";
-import { UtensilsBanner } from "../../components/UtensilsBanner/UtensilsBanner.tsx";
-import { Navigation } from "../../components/shared/Navigation/Navigation.tsx";
-import { ProductList } from "../../components/shared/ProductList/ProductList.tsx";
-import { Footer } from "../../components/shared/Footer/Footer.tsx"
+import { Header } from "@/components/shared/Header/Header";
+import { UtensilsBanner } from "@/components/UtensilsBanner/UtensilsBanner";
+import { Navigation } from "@/components/shared/Navigation/Navigation";
+import { ProductList } from "@/components/shared/ProductList/ProductList";
+import { Footer } from "@/components/shared/Footer/Footer";
 
-import classes from './utensils.module.css'
+import classes from './utensils.module.css';
 
-export const Utensils = () => {
+export default function Utensils() {
   return (
     <div className={classes.utensilsScreen}>
         <Header />

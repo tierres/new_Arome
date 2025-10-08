@@ -1,12 +1,12 @@
-import { Header } from "../../components/shared/Header/Header.tsx";
-import { InfusionsAndTeas } from "../../components/InfusionsAndTeas/InfusionsAndTeas.tsx"
-import { Navigation } from "../../components/shared/Navigation/Navigation.tsx";
-import { ProductList } from "../../components/shared/ProductList/ProductList.tsx";
-import { Footer } from "../../components/shared/Footer/Footer.tsx"
+import { Header } from "@/components/shared/Header/Header";
+import { InfusionsAndTeas } from "@/components/InfusionsAndTeas/InfusionsAndTeas"
+import { Navigation } from "@/components/shared/Navigation/Navigation";
+import { ProductList } from "@/components/shared/ProductList/ProductList";
+import { Footer } from "@/components/shared/Footer/Footer";
 
-import classes from './teas.module.css'
+import classes from './teas.module.css';
 
-export const Teas = () => {
+export default function Teas() {
   return (
     <div className={classes.teasScreen}>
         <Header />

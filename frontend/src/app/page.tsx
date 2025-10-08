@@ -7,7 +7,7 @@ import { Footer } from "@/components/shared/Footer/Footer";
 
 import classes from 'page.module.css'
 
-export const Home = () => {
+export default function Home() {
   return (
     <div className={classes.homeScreen}>
       <Header/>

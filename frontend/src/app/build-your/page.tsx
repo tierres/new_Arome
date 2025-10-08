@@ -1,10 +1,10 @@
-import { Header } from "../../components/shared/Header/Header.tsx";
+import { Header } from "@/components/shared/Header/Header";
 
-import { Footer } from "../../components/shared/Footer/Footer.tsx"
+import { Footer } from "@/components/shared/Footer/Footer";
 
-import classes from './build-your.module.css'
+import classes from './build-your.module.css';
 
-export const BuildYour = () => {
+export default function BuildYour() {
   return (
     <div className={classes.buildYourScreen}>
         <Header />

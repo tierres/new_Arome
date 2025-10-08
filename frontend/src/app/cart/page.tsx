@@ -1,10 +1,10 @@
-import { Header } from "../../components/shared/Header/Header.tsx";
+import { Header } from "@/components/shared/Header/Header";
 
-import { Footer } from "../../components/shared/Footer/Footer.tsx"
+import { Footer } from "@/components/shared/Footer/Footer";
 
 import classes from './cart.module.css'
 
-export const Cart = () => {
+export default function Cart() {
   return (
     <div className={classes.cartScreen}>
         <Header />

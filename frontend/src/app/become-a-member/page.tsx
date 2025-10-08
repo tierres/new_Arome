@@ -1,12 +1,12 @@
-import { Header } from "../../components/shared/Header/Header.tsx";
-import { SejaUmSocio } from "../../components/SejaUmSocio/SejaUmSocio.tsx";
-import { HowItWorks } from "../../components/HowItWorks/HowItWorks.tsx";
-import { ClubForm } from "../../components/ClubForm/ClubForm.tsx";
-import { Footer } from "../../components/shared/Footer/Footer.tsx"
+import { Header } from "@/components/shared/Header/Header";
+import { SejaUmSocio } from "@/components/SejaUmSocio/SejaUmSocio";
+import { HowItWorks } from "@/components/HowItWorks/HowItWorks";
+import { ClubForm } from "@/components/ClubForm/ClubForm";
+import { Footer } from "@/components/shared/Footer/Footer";
 
-import classes from './become-a-member.module.css'
+import classes from './become-a-member.module.css';
 
-export const BecomeAMember = () => {
+export default function BecomeAMember() {
   return (
     <div className={classes.becomeAMemberScreen}>
         <Header />

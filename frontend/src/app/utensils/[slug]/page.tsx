@@ -1,5 +1,5 @@
 import { useParams } from 'next/navigation';
-import { ProductPage } from '@/components/ProductPage/page.tsx';
+import { ProductPage } from '@/components/ProductPage/page';
 
 export default function UtensilProductPage() {
   const { slug } = useParams();
